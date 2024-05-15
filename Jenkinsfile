@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('123') {
+    stage('print') {
       steps {
-        sleep(time: 2, unit: 'SECONDS')
+        echo '22222'
       }
     }
 
