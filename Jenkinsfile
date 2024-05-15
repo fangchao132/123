@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('123') {
       steps {
-        sleep(time: 2, unit: 'HOURS')
+        sleep(time: 2, unit: 'SECONDS')
       }
     }
 
